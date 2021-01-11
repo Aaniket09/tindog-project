@@ -1,0 +1,172 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  overflow-x: hidden;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+svg {
+  display: block;
+  position: relative;
+  bottom: 0;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+#title {
+  background: #ff4c68;
+  color: #ffffff;
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 2% 15% 0;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.phone {
+  position: absolute;
+  width: 59%;
+  top: 10%;
+  right: 20%;
+  animation: phone;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
+}
+.img-fluid {
+  max-width: 100%;
+}
+.download-button {
+  margin: 2rem 1.5rem 2rem 0;
+}
+.svg-container {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.features-container {
+  padding: 2% 15%;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 5%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+#testimonials {
+  background: #ef8172;
+  color: #fff;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.25rem;
+}
+#press {
+  background: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 14%;
+  margin: 1.25rem;
+}
+#pricing {
+  padding: 6.25rem;
+}
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-title {
+  font-size: 1.5rem;
+}
+.pricing-card {
+  padding: 3rem 1.5rem 1rem;
+}
+.cta {
+  background: #ff4c68;
+  color: #fff;
+}
+#footer {
+  background: #fff;
+}
+.footer-icon {
+  padding: 20px 10px;
+}
+@media (max-width: 1400px) {
+  svg {
+    display: block;
+  }
+  .svg-container {
+    max-width: 100%;
+  }
+  #title {
+    text-align: center;
+  }
+  .phone {
+    position: static;
+    margin: 1rem 0 0;
+    transform: rotate(0);
+  }
+  .download-button {
+    position: relative;
+    margin: 2rem 0.2rem 2rem;
+  }
+}
+@keyframes phone {
+  from {
+    transform: rotateZ(20deg);
+  }
+  to {
+    transform: rotateZ(10deg);
+  }
+}
