@@ -143,15 +143,30 @@ svg {
   padding: 20px 10px;
 }
 @media (max-width: 1400px) {
-  svg {
-    display: block;
-  }
-  .svg-container {
-    max-width: 100%;
+  body {
+    text-align: center;
   }
   #title {
     text-align: center;
   }
+  svg {
+    display: block;
+  }
+  .section-heading {
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-bottom: 5%;
+  }
+  .big-heading {
+    font-size: 2.5rem;
+  }
+  .navbar-brand {
+    font-size: 1.8rem;
+  }
+  .svg-container {
+    max-width: 100%;
+  }
+
   .phone {
     position: static;
     margin: 1rem 0 0;
@@ -160,6 +175,26 @@ svg {
   .download-button {
     position: relative;
     margin: 2rem 0.2rem 2rem;
+  }
+  .testimonial-text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+  .testimonial-image {
+    width: 13%;
+    border-radius: 100%;
+    margin: 1.25rem;
+  }
+  #pricing {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .pricing-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+  .pricing-title {
+    font-size: 1.2rem;
   }
 }
 @keyframes phone {
